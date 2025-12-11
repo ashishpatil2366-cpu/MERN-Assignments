@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <img src="D:\Sunbeam Internship\sunbeam logo.png" height="100" ><br>
+        <h2>Sunbeam Registration form</h2>
+    </center>
+     <table align="center" cellspacing="20">
+          <tr>
+
+            <!-- LEFT SIDE : YouTube Video -->
+            <td>
+                <iframe width="520" height="300"
+                    src="https://www.youtube.com/embed/02q9aAVv1NI"
+                    title="Sunbeam Video">
+                </iframe>
+            </td>
+
+
+             <td>
+                <form>
+
+                    <!-- Name -->
+                    <label>Name:</label>
+                    <input type="text" name="name" required><br><br>
+
+                    <!-- Birth Date -->
+                    <label>BirthDate:</label>
+                    <input type="date" name="dob" required><br><br>
+
+                    <!-- Email -->
+                    <label>Email:</label>
+                    <input type="email" name="email" required><br><br>
+
+                    <!-- Password -->
+                    <label>Password:</label>
+                    <input type="password" name="password" required><br><br>
+
+                    <!-- Address -->
+                    <label>Address:</label>
+                    <input type="Address" name="Address" required>
+                    <br><br>
+
+                    <!-- Gender -->
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <br><br>
+
+                    <!-- File Upload -->
+                    <label>Upload Photo:</label>
+                    <input type="file" name="photo"><br><br>
+
+                    <!-- Course Selection -->
+                    <label>Select your Course:</label>
+                    <select name="course" required>
+                        <option value="">Select course</option>
+                        <option value="dac">PG-DAC</option>
+                        <option value="ditiss">PG-DITISS</option>
+                        <option value="dbda">PG-DBDA</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Skills -->
+                    <label>Skill Set:</label>
+                    <input type="checkbox" name="skill" value="java"> Java
+                    <input type="checkbox" name="skill" value="cpp"> CPP
+                    <input type="checkbox" name="skill" value="os"> OS
+                    <br><br>
+
+                    <!-- Buttons -->
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+
+                </form>
+     </table>
+    
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    /* Centered heading and logo */
+    h2 {
+        margin-top: 5px;
+    }
+
+    /* Table alignment & spacing */
+    table {
+        margin-top: 20px;
+    }
+
+    /* Form labels and inputs */
+    form label {
+        display: inline-block;
+        width: 120px;
+        font-weight: bold;
+    }
+
+    form input, 
+    form select {
+        padding: 5px;
+        width: 200px;
+    }
+
+    /* Address input shorter */
+    input[name="Address"] {
+        width: 250px;
+    }
+
+    /* Radio & checkbox spacing */
+    input[type="radio"], 
+    input[type="checkbox"] {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    /* Buttons */
+    input[type="submit"],
+    input[type="reset"] {
+        padding: 6px 15px;
+        font-size: 14px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    /* YouTube frame border remove */
+    iframe {
+        border: none;
+    }
+</style>
